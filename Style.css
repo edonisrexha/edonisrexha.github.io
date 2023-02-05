@@ -1,0 +1,97 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}
+body {
+    color: #000000;
+    background-color: #b6b6b6;
+    margin: 0;
+    padding: 0;
+    background-image: url("2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+}
+.wrapper {
+    width: 940px;
+    height: 160px;
+    margin: 20px auto 20px auto;
+    border: 2px solid rgb(0, 0, 0);
+    background-color:  rgb(0, 128, 255);
+    background-image: url("header.jpg");
+    background-size: 500px;
+}
+header {
+    width: 940px;
+    height: 160px;
+    background-image: url("header.jp");
+    background-repeat: no-repeat;
+        }
+h1 { color: rgb(0, 0, 0);
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;}
+nav, footer {
+    clear: both;
+    color: rgb(0, 0, 0);
+    background-color: rgb(1, 90, 255);
+    height: 30px;}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;}
+nav li {
+    display: inline;
+    margin-right: 40px;}
+nav li a {
+    color: rgb(0, 0, 0);}
+nav li a:hover, nav li a.current {
+    color: #000000;}
+section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #000000;}
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;}
+hgroup {
+    margin-top: 40px;}
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 0px;
+    margin: 20px;
+    border: 0px solid #000000;}
+figcaption {
+    font-size: 90%;
+    text-align: left;}
+aside {
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;}
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #000000;}
+aside section a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #564ceb;}
+a {
+    color: rgb(218, 218, 218);
+    text-decoration: none;}
+h1, h2, h3 {
+    font-weight: normal;}
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;}
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: rgb(0, 0, 0);}
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: rgb(0, 0, 0);}
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;}
